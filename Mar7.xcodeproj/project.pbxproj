@@ -16,6 +16,9 @@
 		390522A516E58B58000A8EDF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 390522A416E58B58000A8EDF /* Default.png */; };
 		390522A716E58B58000A8EDF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 390522A616E58B58000A8EDF /* Default@2x.png */; };
 		390522A916E58B58000A8EDF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 390522A816E58B58000A8EDF /* Default-568h@2x.png */; };
+		3911372716E8F4D500844E3D /* emptycan.png in Resources */ = {isa = PBXBuildFile; fileRef = 3911372616E8F4D500844E3D /* emptycan.png */; };
+		3911372916E8F4E900844E3D /* fullcan.png in Resources */ = {isa = PBXBuildFile; fileRef = 3911372816E8F4E900844E3D /* fullcan.png */; };
+		3911372C16E8F6E400844E3D /* FullCan.m in Sources */ = {isa = PBXBuildFile; fileRef = 3911372B16E8F6E400844E3D /* FullCan.m */; };
 		392AA1FA16E836120075F559 /* entertainer.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 392AA1F916E836120075F559 /* entertainer.m4a */; };
 		392AA1FC16E840A00075F559 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 392AA1FB16E840A00075F559 /* AVFoundation.framework */; };
 		392AA1FE16E842DA0075F559 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 392AA1FD16E842DA0075F559 /* Icon.png */; };
@@ -41,6 +44,10 @@
 		390522A416E58B58000A8EDF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		390522A616E58B58000A8EDF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		390522A816E58B58000A8EDF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3911372616E8F4D500844E3D /* emptycan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emptycan.png; sourceTree = "<group>"; };
+		3911372816E8F4E900844E3D /* fullcan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fullcan.png; sourceTree = "<group>"; };
+		3911372A16E8F6E400844E3D /* FullCan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullCan.h; sourceTree = "<group>"; };
+		3911372B16E8F6E400844E3D /* FullCan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullCan.m; sourceTree = "<group>"; };
 		392AA1F916E836120075F559 /* entertainer.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = entertainer.m4a; sourceTree = "<group>"; };
 		392AA1FB16E840A00075F559 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		392AA1FD16E842DA0075F559 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
@@ -109,6 +116,8 @@
 				39E94B4916E7080E004C0BC8 /* PieceOfGarbage.m */,
 				39E94B5216E70E0F004C0BC8 /* TrashCan.h */,
 				39E94B5316E70E0F004C0BC8 /* TrashCan.m */,
+				3911372A16E8F6E400844E3D /* FullCan.h */,
+				3911372B16E8F6E400844E3D /* FullCan.m */,
 				3905229916E58B58000A8EDF /* Supporting Files */,
 			);
 			path = Mar7;
@@ -117,6 +126,8 @@
 		3905229916E58B58000A8EDF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3911372816E8F4E900844E3D /* fullcan.png */,
+				3911372616E8F4D500844E3D /* emptycan.png */,
 				392AA1FF16E842E20075F559 /* Icon-72.png */,
 				392AA1FD16E842DA0075F559 /* Icon.png */,
 				392AA1F916E836120075F559 /* entertainer.m4a */,
@@ -194,6 +205,8 @@
 				392AA1FA16E836120075F559 /* entertainer.m4a in Resources */,
 				392AA1FE16E842DA0075F559 /* Icon.png in Resources */,
 				392AA20016E842E20075F559 /* Icon-72.png in Resources */,
+				3911372716E8F4D500844E3D /* emptycan.png in Resources */,
+				3911372916E8F4E900844E3D /* fullcan.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +222,7 @@
 				39E94B4A16E7080E004C0BC8 /* PieceOfGarbage.m in Sources */,
 				39E94B5116E70AAA004C0BC8 /* View.m in Sources */,
 				39E94B5416E70E0F004C0BC8 /* TrashCan.m in Sources */,
+				3911372C16E8F6E400844E3D /* FullCan.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

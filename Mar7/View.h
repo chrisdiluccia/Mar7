@@ -9,12 +9,15 @@
 #import <UIKit/UIKit.h>
 @class PieceOfGarbage;
 @class TrashCan;
+@class FullCan;
 
 @interface View: UIView {
     PieceOfGarbage *piece1;
     PieceOfGarbage *piece2;
     PieceOfGarbage *piece3;
     TrashCan *can;
+    FullCan *fullCan;
+    
     UITextView *textView;
     bool trashCollected;
 }

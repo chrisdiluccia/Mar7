@@ -1,14 +1,14 @@
 //
-//  TrashCan.m
+//  FullCan.m
 //  Mar7
 //
-//  Created by Christopher J Di Luccia on 3/6/13.
+//  Created by Christopher J Di Luccia on 3/7/13.
 //  Copyright (c) 2013 Christopher J Di Luccia. All rights reserved.
 //
 
-#import "TrashCan.h"
+#import "FullCan.h"
 
-@implementation TrashCan
+@implementation FullCan
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -23,7 +23,7 @@
 - (void)drawRect:(CGRect)rect
 {
     // Drawing code
-    UIImage *image = [UIImage imageNamed: @"emptycan.png"];
+    UIImage *image = [UIImage imageNamed: @"fullcan.png"];
     if (image == nil) {
         NSLog(@"could not find the image");
         return;
