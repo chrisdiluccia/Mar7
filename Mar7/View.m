@@ -27,11 +27,11 @@
         piece1 = [[PieceOfGarbage alloc] initWithFrame: g1];
         [self addSubview: piece1];
         
-        CGRect g2 = CGRectMake(60, (h-h)+75, 60, 57);
+        CGRect g2 = CGRectMake(40, (h-h)+75, 60, 57);
         piece2 = [[PieceOfGarbage alloc] initWithFrame: g2];
         [self addSubview: piece2];
         
-        CGRect g3 = CGRectMake(120, (h-h)+200, 60, 57);
+        CGRect g3 = CGRectMake(w-100, (h-h)+100, 60, 57);
         piece3 = [[PieceOfGarbage alloc] initWithFrame: g3];
         [self addSubview: piece3];
         
